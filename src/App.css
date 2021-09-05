@@ -1,0 +1,168 @@
+.BackImage{
+  background-image: url(./assets/arrow.png);
+}
+.Gradient{
+  background: linear-gradient(135deg, #ff516b 0%,#826cfd 100%);
+}
+
+/* *************Home Page SideBar************ */
+
+video {
+  object-fit: cover;
+}
+#BigVideo{
+  object-fit: contain;
+  background: #343536;
+}
+.Sidebar{
+  color: white;
+}
+.Sidebar ul{
+  padding-left: 0px;
+}
+.Sidebar ul li{
+  list-style: none;
+  padding: 12px;
+  width: 230px;
+  font-size: 14px;
+}
+.Sidebar ul li:hover{
+  background: rgba(90, 38, 38, 0.2);
+  color: rgba(255, 255, 255, 0.75);
+  cursor: pointer;
+}
+.Sidebar ul li ul {
+  display: none;
+  margin-top: 10px;
+}
+.Sidebar ul li ul li{
+  list-style: none;
+  /* padding: 12px; */
+  width: 210px;
+  font-size: 14px;
+}
+.Sidebar ul li:hover ul{
+  display: inherit;
+}
+.Sidebar ul li ul li:hover{
+  background: rgba(24, 16, 16, 0.2);
+  color: rgba(255, 255, 255, 0.75);
+  cursor: pointer;
+}
+/* ************Profile Page Sidebar************ */
+
+.ProfileSidebar{
+  color: white;
+}
+.ProfileSidebar ul{
+  padding-left: 0px;
+}
+.ProfileSidebar ul li ul {
+  display: none;
+  margin-top: 10px;
+}
+.ProfileSidebar ul li ul li{
+  list-style: none;
+  /* padding: 12px; */
+  width: 210px;
+  font-size: 14px;
+}
+.ProfileSidebar ul li{
+  list-style: none;
+  padding: 12px;
+  width: 230px;
+  font-size: 14px;
+}
+.ProfileSidebar ul li:hover{
+  background: rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 0.75);
+  cursor: pointer;
+}
+.ProfileSidebar ul li:hover ul{
+  display: inherit;
+}
+.ProfileSidebar ul li ul li:hover{
+  background: rgba(24, 16, 16, 0.2);
+  color: rgba(255, 255, 255, 0.75);
+  cursor: pointer;
+}
+
+
+.Footer{
+  /* height: 280px; */
+  padding: 20px;
+  width: 100%;
+  background: #e9ecef;
+  bottom: 0;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Footer div{
+  display: flex;
+  flex-direction: column;
+}
+.Footer ul li{
+  list-style: none;
+}
+.Footer ul{
+  padding: 0;
+}
+.Footer ul li a{
+  color: #666;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+/* Home Page Video View */
+.ViewViewDiv_HOME{
+  width: 230px;
+}
+.AllVideosParentDiv_HOME{
+  padding: 25px;
+  width: 95%;
+}
+
+
+/* Home PAGE RESPONSIVENESS */
+@media screen and (max-width: 1354px) {
+  .ViewViewDiv_HOME{
+    width: 220px;
+  }
+}
+@media screen and (max-width: 1304px) {
+  .ViewViewDiv_HOME{
+    width: 210px;
+  }
+}
+@media screen and (max-width: 1249px) {
+  .ViewViewDiv_HOME{
+    width: 260px;
+  }
+}
+@media screen and (max-width: 1224px) {
+  .ViewViewDiv_HOME{
+    width: 240px;
+  }
+}
+@media screen and (max-width: 1224px) {
+  .ViewViewDiv_HOME{
+    width: 250px;
+  }
+}
+@media screen and (max-width: 1140px) {
+  .AllVideosParentDiv_HOME{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+  }
+  .ViewViewDiv_HOME{
+    width: 250px;
+  }
+}
+@media screen and (max-width: 1093px) {
+  .ViewViewDiv_HOME{
+    width: 230px;
+  }
+}

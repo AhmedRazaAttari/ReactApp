@@ -1,0 +1,32 @@
+#DraftVideoTitle{
+    display: flex;
+}
+#DraftVideoIcons{
+    display: none;
+}
+.DraftTableTR:hover{
+    background: rgb(250, 247, 247);
+}
+.DraftTableTR:hover #DraftVideoTitle{
+    display: none;
+}
+.DraftTableTR:hover #DraftVideoIcons{
+    display: flex;
+}
+
+
+#PublishVideoTitle{
+    display: flex;
+}
+#PublishVideoIcons{
+    display: none;
+}
+.PublicTableTR:hover{
+    background: rgb(250, 247, 247);
+}
+.PublicTableTR:hover #PublishVideoTitle{
+    display: none;
+}
+.PublicTableTR:hover #PublishVideoIcons{
+    display: flex;
+}

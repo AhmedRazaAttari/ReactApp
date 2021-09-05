@@ -1,0 +1,56 @@
+#headerSearchBar{
+    width: 50%;
+}
+#headerThreeIcons{
+    width: 13%;
+}
+
+#VideosOptions ul{
+    list-style: none;
+    padding: 0;
+}
+#VideosOptions ul li{
+    padding: 10px;
+    height: 40px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    width: 150px;
+    /* background-color: blue; */
+}
+ul li:hover{
+    background: rgba(83, 58, 58, 0.2);
+    color: rgba(255, 255, 255, 0.75);
+    cursor: pointer;
+}
+#VideosOptionsIcon #VideosOptions{
+    visibility: hidden;
+}
+#VideosOptionsIcon:hover #VideosOptions{
+    visibility: visible;
+}
+
+#NotificationIcon #NotificationsDiv{
+    visibility: hidden;
+}
+#NotificationIcon:hover #NotificationsDiv{
+    visibility: visible;
+}
+#profileBtn #profileOptions{
+    visibility: hidden;
+}
+#profileBtn:hover #profileOptions{
+    visibility: visible;
+}
+#profileOptions ul{
+    list-style: none;
+    padding: 1px;
+}
+#profileOptions ul li{
+    width: 300px;
+    align-items: center;
+    padding: 10px;
+}
+#profileOptions ul li:hover{
+    background-color: rgb(231, 224, 224, .5);
+    color: grey;
+}
